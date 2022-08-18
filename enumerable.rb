@@ -15,7 +15,7 @@ module Enumerable
     result
   end
 
-  def filter?
+  def filter
     result = []
 
     each { |item| result.push(item) if yield item }
