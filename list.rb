@@ -1,4 +1,8 @@
+require_relative 'enumerable'
+
 class List
+  include Enumerable
+
   def initialize(*list)
     @list = list
   end
